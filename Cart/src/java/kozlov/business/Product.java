@@ -14,6 +14,12 @@ public class Product implements Serializable{
         description = "";
         price = 0;
     }
+    
+    public Product(String code,String description,double price) {
+        this.code = code;
+        this.description = description;
+        this.price = price;
+    }
 
     public String getCode() {
         return code;
